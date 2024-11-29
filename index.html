@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Einscan Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <!-- javascript -->
+    <script>
+      function toggleMode() {
+          const toggleContainer = document.querySelector('.toggle-container');
+          const toggleCircle = document.querySelector('.toggle-circle');
+
+          // Toggle active state
+          toggleContainer.classList.toggle('active');
+          
+          // toggleCircle.onclick=function(){
+          //   document.body.classList.toggle("dark-theme");
+          // }
+
+          if (toggleCircle.classList.contains('sun-icon')){
+            document.body.classList.toggle("dark-theme");
+          }
+          else{
+            document.body.classList.toggle("dark-theme");
+          }
+          
+
+
+          
+
+          // Toggle icon class
+          if (toggleContainer.classList.contains('active')) {
+              toggleCircle.classList.replace('sun-icon', 'moon-icon');
+          } else {
+              toggleCircle.classList.replace('moon-icon', 'sun-icon');
+          }
+      }
+  </script>
+
+     <!-- html -->
+     
+     <!-- header-section -->
+      <div class="header-section">
+        <div class="hero-section">
+          <div class="container py-5">
+              <div class="row">
+                <div class="col-lg-6">
+                     <!-- <div class="toggle">
+                      <img src="./assets/images/toggle.png" alt="">
+                     </div> -->
+                     <div class="toggle-container" onclick="toggleMode()">
+                      <div class="toggle-circle sun-icon"></div>
+                     </div>
+                </div>
+                <div class="col-lg-6 d-flex p-2 justify-content-evenly">
+                  <div class="p-2">
+                      <img src="./assets/images/phone.png" alt="">
+                  </div>
+                  <div>
+                       <p class="call" style="margin: 0px;">Call us now </p>
+                       
+                       <span style="color: #ff931e;font-weight: 700;font-size: 15px;">Sales:</span>
+                       <span class="cal-number">9840478347 |</span>
+                       <span style="color: #ff931e;font-weight: 700;font-size: 15px;">3D Service:</span>
+                       <span class="cal-number">9940352575 |</span>
+                       <span style="color: #ff931e;font-weight: 700;font-size: 15px;">3D Services:</span>
+                       <span class="cal-number">9025700192 </span>
+                  </div>
+  
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                
+                        <span class="hero-head1 p-2">Einscan</span>
+                        <span class="hero-head2">Pro 2X</span>
+                        <span class="hero-head3">V2</span>
+                        <p class="hero-cont pt-5">The truly portable and Versatile Handheld 3D Scanner for High-quality results.</p>
+                        <div class="pt-2">
+                          <button class="button">Get a Quote Now</button>
+                          <button class="button">Book Demo</button>
+                        </div>
+                        <div class="email d-flex">
+                          <div class="email-img p-2">
+                                <img src="./assets/images/email.png" alt="">
+                          </div>
+                          <div>
+                                <p style="color: #ff931e;font-weight: 700;font-size: 15px; margin: 0px;">Email Us at</p>
+                                <p>sm@precise3dm.com</p>
+                          </div>
+                        </div>
+              </div>
+              <div class="col-lg-4">
+                   <img src="./assets/images/header-img.png" alt="" width="100%" height="528px">
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+
+      <!-- section1 -->
+       <div class="section1">
+        <div class="overview-section " id="overview-section">
+          <!-- nav-section -->
+       <div class="navsection">
+         <div class="container">
+           <div class="row">
+             <div class="navv">
+               <div class="nav-sub">
+                 <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                   <li class="nav-item" role="presentation">
+                     <a href="#overview-section"><button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span class="p-3"><img src="./assets/images/overview.png" alt=""></span><span>Overview</span></button></a>
+                   </li>
+                   <li class="nav-item" role="presentation">
+                     <a href="#technical-section"><button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span class="p-3"><img src="./assets/images/specifications (2).png" alt=""></span><span>Specifications</span></button></a>
+                   </li>
+                   <li class="nav-item" role="presentation">
+                     <a href="#keyfeatures"><button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span class="p-3"><img src="./assets/images/keyfeatures (2).png" alt=""></span><span>Key Features</span></button></a>
+                   </li>
+                   
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+         <div class="container py-5">
+           <div class="row">
+             <div class="col-lg-4">
+                     <img src="./assets/images/sec2-img.png"  width="100%" height="390px" alt="">
+             </div>
+             <div class="col-lg-8">
+                       <div class="d-flex justify-content-evenly">
+                         <h3 class="overview-title" style="color: #ff931e;font-weight: 600;font-size: 45px; ">Overview</h3>
+                         <div class="pt-2" style="cursor: pointer;">
+                           <div class="button d-flex justify-content-evenly">
+                             <p style="margin: 0px;">Download Brochure</p>
+                             <div>
+                               <img  src="./assets/images/download.png" alt="" >
+                             </div>
+                           </div>
+                         </div>
+ 
+                       </div>
+                       <div class="overview-content pt-3">
+                          <p>The EinScan Pro 2X V2 is the next generation of handheld 3D scanners, incorporating the latest technology based on feedback from thousands of users and the valuable input of SHINING 3D’s R&D team. With increased speed and accuracy, this portable and versatile scanner will greatly improve the efficiency of high-quality 3D modeling. </p>
+                         
+                       </div>
+             </div>
+           </div>
+         </div>
+ 
+       </div>
+       </div>
+
+       <!-- section2 -->
+        <div class="section2">
+          <div class="technical-section py-5" id="technical-section">
+            <div class="two-color-title pb-4">
+             <span class="t-1 p-2">Technical</span>
+             <span class="t-2">Specifications</span>
+            </div>
+          
+
+        
+         
+           <div class="container">
+            
+             <img src="./assets/images/Frame 10.jpg" alt="" width="100%">
+         </div>
+         
+         </div>
+        </div>
+
+        <!-- section3 -->
+        <div class="section3">
+
+        </div>
+        <!-- section4 -->
+       <div class="section4">
+
+        </div>
+        <!-- section5 -->
+       <div class="section5">
+
+       </div>
+        <!-- section6 -->
+      <div class="section6">
+
+      </div>
+        <!-- section7 -->
+         <div class="section7">
+
+         </div>
+
+        <!-- section8 -->
+         <div class="section8">
+
+         </div>
+
+        <!-- section9 -->
+         <div class="section9">
+
+         </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
