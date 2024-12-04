@@ -9,6 +9,7 @@
     --secondary-color:#6F6F6F;
     --primary-background-color:#ffffff;
     --secondary-background-color:#fff5e9;
+    --bg3:#fff4e8;
     --body-background:#ffffff;
     --box-shadow:rgba(199,199,199,0.75);
     --box-color:white;
@@ -25,6 +26,7 @@
     --box-color:#000000;
     --box-shadow:rgba(0, 0, 0, 0.75);
     --blue-color:#4A9CD8;
+    --bg3:#242424;
 }
 body{
     overflow-x: hidden !important;
@@ -330,7 +332,7 @@ color: #ff931e;
     overflow: hidden;
 }
 .keyfeatures1-section{
-    background-image: url(../images/image\ 5.png) !important;
+    background-image: url(../images/bg1.png) !important;
     width: 100%;
     height: auto;
     background-position: center;
@@ -338,12 +340,162 @@ color: #ff931e;
     background-size: cover;
 }
 .keyfeatures2-section{
-    background-image: url(../images/image.png);
+    background-image: url(../images/bg2.png);
     width: 100%;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.keyfeatures3-section{
+    background-image: url(../images/bg3.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.keyfeatures4-section{
+    background-image: url(../images/bg4.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* keyfeatures */
+.keyfeatures{
+    text-align: center;
+    padding: 100px 100px;
+    color: white;
+}
+.key-features{
+    background-color: var(--secondary-background-color);
+}
+/* section5 */
+.section5{
+    background-color: var(--primary-background-color);
+}
+.section5-sub1{
+    text-align: center;
+}
+.section5-sub1 h2{
+       font-size: 45px;
+       line-height: 38px;
+       font-weight: 700;
+       color:#ff931e;
+       
+}
+.section5-sub1 p{
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 400;
+    color:var(--secondary-color);
+}
+.section5-sub2{
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    height: auto;
+    
+}
+
+.section5-sub2 span{
+        font-weight: 400;
+        font-size: 19px;
+        color: var(--primary-color);
+        line-height: 60px;
+}
+.section5-sub3 .box1{
+    background-image: url(../images/image\ \(1\).png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+.section5-sub3 .box2{
+    background-image: url(../images/image\ \(2\).png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+.section5-sub3 .box3{
+    background-image: url(../images/image\ \(3\).png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+.section5-sub3 .boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.section5-sub3 h2{
+    padding-top: 200px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.section5-sub3 p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/* section4 */
+.section4{
+    background-color: var(--primary-background-color);
+}
+.section4-box1{
+
+padding: 20px 30px;
+}
+.section4-box1 .container{
+    background-color: var(--bg3);
+    padding: 30px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 20px;
+}
+.section4-box1 h3{
+ 
+ 
+font-size: 40px;
+font-weight: 600;
+
+text-align: left;
+color: var(--secondary-color);
+
+
+}
+.section4-box1 span{
+    color:#ff931e;
+    
+}
+    
+.section4-box1 p{
+  
+    font-size: 16px;
+    font-weight: 400;
+    
+    text-align: left;
+    color: var(--primary-color);
+   
+    
+
+}
+.section4-box1 li{
+    color: var(--primary-color);
 }
 
 @media screen and (max-width:500px){
@@ -355,5 +507,12 @@ color: #ff931e;
     }
     .hero-section{
         padding: 40px 20px;
+    }
+    .keyfeatures p{
+          line-height: 50px !important;
+          font-size: 40px !important;
+    }
+    .keyfeatures{
+        padding: 40px 40px;
     }
 }
