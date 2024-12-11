@@ -497,7 +497,275 @@ color: var(--secondary-color);
 .section4-box1 li{
     color: var(--primary-color);
 }
+/* section5 */
+.section5{
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    height: auto;
 
+}
+.section5 h3{
+   
+    font-size: 40px;
+    font-weight: 600;
+   
+    text-align: center;
+    color: var(--secondary-color);
+    
+    
+}
+.section5 p{
+ 
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: var(--secondary-color);
+    
+    
+}
+.section5 span{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #ff931e;
+}
+/* section6 */
+.section6{
+    background-image: url(../images/Layer_1.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section6 h3{
+    font-size: 40px;
+    font-weight: 600;
+   
+    text-align: center;
+    color: var(--secondary-color);
+}
+.section6 span{
+    font-size: 40px;
+    font-weight: 600;
+   
+    text-align: center;
+    color:#ff931e;
+}
+.section6 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+/* section7 */
+.section7{
+    background-image: url(../images/Rectangle\ 41885.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.section7-dark{
+    background-image: url(../images/rect-dark.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.section7 h3{
+    font-size: 40px;
+    font-weight: 600;
+   
+    text-align: center;
+    color: var(--secondary-color);
+}
+.section7 span{
+    font-size: 40px;
+    font-weight: 600;
+   
+    text-align: center;
+    color:#ff931e;
+}
+.section7 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: var(--primary-color);
+}
+/* section8 */
+.section8{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Layer_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section8 h3{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--secondary-color);
+    
+}
+.section8 span{
+    color:#ff931e;
+}
+.test-box1{
+    border:solid 1px var(--secondary-color);
+    border-radius: 20px;
+    background-color: rgb(244, 244, 244,0.7);
+}
+.test-box-cont{
+   
+    font-size: 14px;
+    font-weight: 400;
+    
+    text-align: left;
+   color: black
+    
+}
+.avatar{
+  padding: 0px 10px;
+}
+.avatar-person h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+   color: black;
+    text-align: left;
+    
+    
+}
+.avatar-person p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+   
+    
+}
+.section8-buttons{
+    align-content: right;
+    text-align: right;
+}
+
+
+/* section9 */
+.section9{
+    background-color: var(--primary-background-color);
+}
+.section9 .t1{
+  font-weight:600 ;
+  font-size:35px ;
+  color:#ff931e ;
+  line-height:36px ;
+  font-family: "Poppins", sans-serif;
+}
+.section9 .t2{
+    font-weight:600 ;
+    font-size:35px ;
+    color:var(--secondary-color) ;
+    line-height:36px ;
+    font-family: "Poppins", sans-serif;
+}
+.section9{
+    background-image: url(../images/Layer_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.acc-btn{
+    background-color: var(--box-color) !important;
+    border: 1px solid var(--primary-background-color) !important;
+    border-radius: 15px !important;
+    margin: 10px !important;
+    width: 100% !important;
+    text-align: left  !important;
+ 
+box-shadow: -11px 3px 65px 0px var(--box-shadow);
+-webkit-box-shadow: -11px 3px 65px 0px var(--box-shadow);
+-moz-box-shadow: -11px 3px 65px 0px var(--box-shadow);
+
+}
+.acc-body{
+    background-color: var(--box-color) !important;
+   border-left:solid 10px #ff931e;
+    border-radius: 15px;
+   margin: 0px 10px;
+    width: 100%;
+    text-align: left;
+    
+box-shadow: -11px 3px 65px 0px var(--box-shadow);
+-webkit-box-shadow: -11px 3px 65px 0px var(--box-shadow);
+-moz-box-shadow: -11px 3px 65px 0px var(--box-shadow);
+}
+.acc-btn p{
+    font-size:16px ;
+    font-weight:500 ;
+    line-height:24px ;
+    color:var(--primary-color) ;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px;
+    margin: 0px;
+}
+.acc-btn p::before{
+    content: "+  " !important;
+    color: #ff931e !important;
+    /* line-height: 20px; */
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    padding: 5px 5px !important;
+}
+.acc-body h2{
+    font-size:16px  !important;
+    font-weight:500  !important;
+    line-height:24px  !important;
+    color:var(--primary-color) !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 10px 20px !important;
+    margin: 0px !important;
+}
+.acc-body p{
+    font-size:15px  !important;
+    font-weight:400  !important;
+    line-height:22.5px  !important;
+    color:var(--secondary-color)  !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 0px 30px !important;
+    margin: 0px !important;
+}
+.acc-body{
+    padding: 10px 10px !important;
+    padding-right: 50px !important;
+    
+}
+.acc-body h2::before{
+    content: "-     " !important;
+    color: #ff931e !important;
+    /* line-height: 20px; */
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    padding: 0px 5px !important;
+}
+.section9{
+    
+    overflow: hidden;
+}
+.section6{
+    overflow: hidden;
+}
 @media screen and (max-width:500px){
     .email{
         padding-top: 50px !important;
@@ -514,5 +782,12 @@ color: var(--secondary-color);
     }
     .keyfeatures{
         padding: 40px 40px;
+    }
+    .section7 img{
+        width: 100%;
+        padding: 20px;
+    }
+    .test-box1{
+        margin:20px;
     }
 }
